@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Nabil ♡</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      background: linear-gradient(145deg, #fff6fa, #fce4ee, #f8d8e7);
+      font-family: 'Quicksand', sans-serif;
+      color: #a84f76;
+    }
+
+    .card {
+      position: relative;
+      width: min(88%, 440px);
+      padding: 58px 25px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.58);
+      border: 1px solid #fff;
+      border-radius: 220px 220px 35px 35px;
+      box-shadow: 0 15px 55px #d991b52b;
+      animation: appear 1.3s ease both;
+    }
+
+    .bow {
+      font-size: 46px;
+      color: #d879a3;
+      margin-bottom: 22px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    .small {
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #c17c9c;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(30px, 7vw, 39px);
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    h1 span {
+      display: block;
+      font-style: italic;
+      color: #d16f9d;
+    }
+
+    .divider {
+      margin: 23px auto;
+      color: #d98bac;
+      letter-spacing: 8px;
+    }
+
+    .message {
+      font-size: 13px;
+      line-height: 2;
+      color: #b77a95;
+      margin-bottom: 27px;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      background: #d77fa5;
+      color: white;
+      padding: 14px 32px;
+      border-radius: 50px;
+      font-size: 12px;
+      letter-spacing: 2px;
+      box-shadow: 0 6px 18px #d77fa540;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      transform: translateY(-4px);
+      background: #c96895;
+      box-shadow: 0 10px 25px #d77fa566;
+    }
+
+    .corner {
+      position: absolute;
+      color: #e5a0bb;
+      font-size: 25px;
+      animation: float 4s ease-in-out infinite;
+    }
+
+    .c1 { top: 28px; left: 25px; }
+    .c2 { top: 55px; right: 25px; animation-delay: 1s; }
+    .c3 { bottom: 32px; left: 30px; animation-delay: 1.5s; }
+    .c4 { bottom: 48px; right: 28px; animation-delay: .5s; }
+
+    .sparkle {
+      position: absolute;
+      color: #d98bac;
+      animation: twinkle 2s infinite alternate;
+    }
+
+    .s1 { top: 15%; left: 12%; }
+    .s2 { top: 25%; right: 10%; animation-delay: .8s; }
+    .s3 { bottom: 17%; right: 13%; animation-delay: 1.2s; }
+    .s4 { bottom: 13%; left: 10%; animation-delay: .4s; }
+
+    @keyframes appear {
+      from { opacity: 0; transform: translateY(25px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0) rotate(-3deg); }
+      50% { transform: translateY(-9px) rotate(3deg); }
+    }
+
+    @keyframes twinkle {
+      from { opacity: .35; transform: scale(.8); }
+      to { opacity: 1; transform: scale(1.2); }
+    }
+  </style>
+</head>
+
+<body>
+  <span class="sparkle s1">✧</span>
+  <span class="sparkle s2">♡</span>
+  <span class="sparkle s3">✧</span>
+  <span class="sparkle s4">♡</span>
+
+  <main class="card">
+    <span class="corner c1">♡</span>
+    <span class="corner c2">✧</span>
+    <span class="corner c3">୨୧</span>
+    <span class="corner c4">♡</span>
+
+    <div class="bow">୨୧</div>
+
+    <p class="small">a little something for you</p>
+
+    <h1>
+      for nabil,
+      <span>my beloved</span>
+      <span>boyfriend ♡</span>
+    </h1>
+
+    <div class="divider">୨୧ ♡ ୨୧</div>
+
+    <p class="message">
+      made with all my love,<br>
+      especially for you, sayang.
+    </p>
+
+    <a href="love.html" class="button">click here ♡</a>
+  </main>
+</body>
+</html>
